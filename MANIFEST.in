@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include watanya *.css
+recursive-include watanya *.csv
+recursive-include watanya *.html
+recursive-include watanya *.ico
+recursive-include watanya *.js
+recursive-include watanya *.json
+recursive-include watanya *.md
+recursive-include watanya *.png
+recursive-include watanya *.py
+recursive-include watanya *.svg
+recursive-include watanya *.txt
+recursive-exclude watanya *.pyc
